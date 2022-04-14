@@ -1,0 +1,121 @@
+.main-Container-Cart {
+    display: flex;
+  }
+  
+  .desktop-base-cartLayout {
+    max-width: 980px;
+    margin: auto;
+    padding: 0 10px 16px;
+    min-height: 320px;
+    color: #282c3f;
+  }
+  .itemContainer-base-item {
+    background: #fff;
+    font-size: 12px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    position: relative;
+  }
+  .itemBlock-base-leftBlock {
+    display: inline-block;
+    width: 100%;
+    padding-right: 20px;
+    border-right: 1px solid #eaeaec;
+    padding-top: 32px;
+  }
+  .offersV2-base-container {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 16px 18px 12px;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    font-size: 13px;
+    position: relative;
+  }
+  .addressStrip-base-desktopContainer {
+     padding: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(0 0 0 / 85%);
+  }
+  .headerComponents-base-ufp {
+    background: #03a685;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+  }
+  .cartFiller-base-cartFiller {
+  margin-left: 10%;
+  font-weight: 700;
+  }
+
+  .itemBlock-base-itemHeader {
+    padding: 8px 12px 18px;
+  }
+  
+  .shippingTip-base-deliveryTip {
+    padding: 8px;
+    margin-bottom: 12px;
+    background: #fff;
+    border: 1px solid #eaeaec;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .coupons-base-header {
+    font-size: 12px;
+    font-weight: 600;
+    color: #535766;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .coupons-base-content {
+    padding-bottom: 12px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f6;
+    padding-left: 36px;
+  }
+  .coupons-base-label {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px 0;
+  }
+  .coupons-base-button {
+    float: right;
+    padding: 4px 16px;
+    position: absolute;
+    color: white;
+    text-transform: none;
+    font-weight: 600;
+    top: 0;
+    right: 0;
+    background: green;
+    font-size: 12px;
+}
+  .priceBlock-base-priceHeader {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 24px 0 16px;
+    color: #535766;
+  }
+  .priceBlock-base-container {
+    margin-bottom: 16px;
+  }
+  .priceDetail-base-row {
+    margin-bottom: 12px;
+    line-height: 16px;
+  }
+  .priceBreakUp-base-orderSummary {
+    font-size: 14px;
+  }
+  .priceDetail-base-value {
+    float: right;
+  }
+  
+  .main-detail {
+    display: flex;
+  }
+  .item-cart-details {
+    display: flex;
+    padding: 10px;
+  }

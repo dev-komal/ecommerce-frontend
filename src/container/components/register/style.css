@@ -1,0 +1,62 @@
+@import 'antd/dist/antd.css';
+/* 
+general 
+-------
+*/
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #d9edff;
+}
+#login-form p {
+  margin-bottom: 30px;
+}
+
+.login-form-button {
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  .login-box {
+    flex-direction: column;
+    box-shadow: none;
+  }
+  .illustration-wrapper {
+    max-width: 100%;
+    min-height: auto;
+  }
+  #login-form {
+    max-width: 100%;
+  }
+}
+.ant-form-item-control-input-content {
+  text-align: left;
+  margin-bottom: -5px;
+}
+
+.login-box{
+  margin-top: 10px;
+}
+
+.input-field{
+  border-radius: 4px;
+  height: 40px;
+}
+.AlreadyAccount{
+  text-align: center;
+  margin-top: 6%;
+}

@@ -1,0 +1,13 @@
+@import 'antd/dist/antd.css'; 
+
+h1.ant-typography, .ant-typography h1 {
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.23;
+    text-align-last: center;
+    font-family: monospace;
+    margin-top: -25px;
+    margin-bottom: 1px !important;
+}

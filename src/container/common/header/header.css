@@ -1,0 +1,335 @@
+@import "antd/dist/antd.css";
+/* 
+general 
+-------
+*/
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.Header-container-fluid {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.ant-layout {
+  background: #fff !important;
+}
+
+.mainLayout .ant-layout-header {
+  background: #f8f8f8;
+  padding: 0;
+  height: auto;
+  line-height: 1.6;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bgGray {
+  background: #fafafa;
+}
+/* header */
+.mainLayout .ant-layout-header {
+  background: white;
+  padding: 0;
+  height: 60px;
+  line-height: 1.6;
+  margin-top: -10px;
+}
+.header .ant-menu li.ant-menu-item {
+  /* position: relative; */
+  color: #333;
+  padding: 0 10px;
+  line-height: 1.4;
+  position: relative;
+  font-family: fantasy;
+  font-size: 16px;
+}
+.ant-layout-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto;
+  max-width: 100% !important;
+  margin-top: 0.7rem;
+}
+
+.header .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.header .logo .fas {
+  color: #1890ff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+}
+
+.header .logo a {
+  color: #333;
+}
+
+/* ant menu */
+.header .ant-menu {
+  border: 0;
+  background: none !important;
+}
+
+.header .ant-menu li.ant-menu-item {
+  position: relative;
+  color: #333;
+}
+
+.header .ant-menu li.ant-menu-item:before,
+.header .ant-menu li.ant-menu-item:after {
+  content: "";
+  background: #1890ff;
+  width: 1px;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 30%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.header .ant-menu li.ant-menu-item:after {
+  left: auto;
+  right: 30%;
+}
+
+.header .ant-menu li.ant-menu-item,
+.header .ant-menu li.ant-menu-item-selected {
+  border: 0 !important;
+}
+
+.header .ant-menu li.ant-menu-item-selected,
+.header .ant-menu li.ant-menu-item:hover {
+  color: #1890ff;
+  background: none;
+}
+
+.header .ant-menu li.ant-menu-item-selected:before,
+.header .ant-menu li.ant-menu-item:hover:before {
+  left: 5%;
+  opacity: 1;
+}
+
+.header .ant-menu li.ant-menu-item-selected:after,
+.header .ant-menu li.ant-menu-item:hover:after {
+  right: 5%;
+  opacity: 1;
+}
+
+.header .ant-menu {
+  border: 0;
+  background: none !important;
+}
+
+.ant-menu-horizontal {
+  line-height: 46px;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: none;
+}
+
+.ant-layout-header {
+  height: 64px;
+  padding: 0 50px;
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 64px;
+  background: white;
+}
+.header .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: -23px;
+}
+
+.mobileVisible {
+  display: none;
+}
+.mobileHidden {
+  display: block;
+}
+/* 
+  responsive
+  ----------
+  */
+@media only screen and (max-width: 991px) {
+  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1.14);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+    transform: scale(1);
+  }
+
+  .mobileVisible {
+    display: block;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+}
+
+/***** logo size *****/
+.logoSize {
+  height: 3em;
+  width: auto;
+  margin-left: -13px;
+  margin-right: 0.5rem;
+  position: relative;
+  padding: 5%;
+}
+/***** drawer Logo  *****/
+.drawerlogo {
+  margin-right: -1px;
+}
+
+.logoSizeDrawer {
+  height: auto;
+  width: 8rem;
+  margin-left: -13px;
+  margin-right: 0.5rem;
+  position: relative;
+}
+
+.btncolor {
+  background-color: #333;
+}
+.signUpBtn {
+  background-color: #f83757;
+  color: white;
+}
+/***** searchbar *****/
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+  left: -4px;
+  padding: 0px;
+  border: 0;
+}
+/***** cartStyle ****/
+.cartStyle {
+  height: 30px;
+}
+
+.drawerBtn .ant-btn-primary {
+  color: #fff;
+  background: #d63956;
+  border-color: #d63956;
+  width: 100%;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
+
+.cartIcon {
+  height: 22px;
+  width: 22px;
+}
+.profile-Margin {
+  margin-top: 2%;
+}
+.registerBtn {
+  background-color: white;
+  color: black;
+  border-radius: 15%;
+}
+.loginBtn {
+  background-color: #d63956;
+  color: white;
+  border-radius: 15%;
+}
+
+.ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button:not(.ant-btn-primary) {
+  color: #d63956;
+}
+
+@media only screen and (max-width: 901px) {
+  .mobileVisibleSerchBar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .mobileVisibleSerchBarBottom {
+    display: none;
+  }
+}
+
+.ant-menu-submenu-arrow::before {
+  transform: rotate(45deg) translateY(-2.5px);
+  display: none;
+}
+.ant-menu-submenu-arrow::after {
+  transform: rotate(-45deg) translateY(2.5px);
+  display: none;
+}
+
+@media only screen and (min-width: 1750px) {
+  .Header-container-fluid {
+    margin: 0 auto;
+    padding: 0 60px;
+  }
+  .menuFont {
+    font-size: 23px;
+  }
+  .cartIcon {
+    height: 37px;
+    width: 45px;
+    /* margin-top:5px; */
+    margin: 5px;
+  }
+  .registerBtn {
+    background-color: #d63956;
+    color: white;
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+  }
+  .profile-Margin {
+    margin-top: 0%;
+  }
+  .logoSize {
+    height: 4em;
+    width: 13rem;
+    margin-left: -13px;
+    margin-right: 0.5rem;
+    position: relative;
+    padding: 5%;
+  }
+  .mainLayout .ant-layout-header {
+    background: white;
+    padding: 0;
+    height: 75px !important;
+    line-height: 1.6;
+    margin-top: -12px;
+  }
+  .ant-input-search
+    > .ant-input-group
+    > .ant-input-group-addon:last-child
+    .ant-input-search-button {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0 2px 2px 0;
+    height: 48px;
+  }
+}

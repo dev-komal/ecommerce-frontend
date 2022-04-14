@@ -1,0 +1,87 @@
+.mainContainer{
+  margin-bottom: 1%;
+}
+.mainContainer .flex {
+    margin: 0;
+    display: flex;
+    background-color: #fff;
+  }
+  .mainContainer .flex h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  .mainContainer .flex p {
+    line-height: 1.4;
+    font-weight: initial;
+    background-color: #d63956;
+    color: white;
+  }
+  .box {
+    transition: box-shadow .3s;
+    width: 360px;
+    height: auto;
+    border: 1px solid #ccc;
+    background: #d63956;
+    text-align: center;
+    margin: 3%;
+    max-height: 400px;
+    margin-bottom: 8.5%;
+    margin-top: 2%;
+    justify-self:center;
+    
+  }
+  .box:hover {
+    box-shadow: 0 0 25px rgba(54, 53, 53, 0.2); 
+  }
+  .mainContainer:hover {
+    transform: scale(1.01); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  .ImgStyle{
+    height: 93%;
+    width: 100%;
+  }
+.Trending-title{
+  margin-top: 50px;
+}
+
+.react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  transition: all .5s;
+  border-radius: 35px;
+  border: 0;
+  background: rgba(0,0,0,0.5);
+  min-width: 43px;
+  min-height: 43px;
+  opacity: 1;
+  cursor: pointer;
+}
+.descriptionFont{
+  font-size:1px;
+}
+.trendingTitle{
+  font-size:small ;
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    transition: box-shadow .3s;
+    width: 360px;
+    height: auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    text-align: center;
+    margin: 3%;
+    max-height: 400px;
+    margin-bottom: 8.5%;
+    margin-top: 2%;
+    justify-self:center;
+  }
+ 
+}
+@media only screen and (min-width: 1750px) {
+  .trendingTitle{
+    font-size: x-large;
+  }
+}

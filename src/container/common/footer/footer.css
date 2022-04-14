@@ -1,0 +1,128 @@
+.font {
+  font-size: 50vw;
+  text-align: center !important;
+  font-family: fantasy;
+}
+.socialicon {
+  font-size: 40px;
+}
+/* Generic styling */
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+}
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  min-width: 12.5rem;
+}
+
+/* Footer main | Newsletter form */
+form {
+  /* display: flex; */
+  flex-wrap: wrap;
+}
+input[type="email"] {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+  color: black;
+}
+input[type="submit"] {
+  background-color: #00d188;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.30rem;
+}
+
+.ant-layout-footer {
+  padding: 24px 50px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  background: #555555;
+}
+
+.Copy-Right-align {
+  text-align: center;
+}
+.subscribeBtn {
+  background-color: #f83656 !important;
+}
+
+@media only screen and (min-width: 1800px) {
+        
+  .ft-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 3rem;
+  }
+  .Allfonts{
+    font-size: 3vh;
+  }
+  .Copy-Right-align {
+    text-align: center;
+    font-size: x-large;
+  }
+}

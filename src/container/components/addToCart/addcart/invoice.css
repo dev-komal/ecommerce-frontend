@@ -1,0 +1,56 @@
+@import 'antd/dist/antd.css';
+
+.ant-table-thead > tr > th {
+    position: relative;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 800;
+    text-align: left;
+    font-size: 20px;
+    background: #fafafa;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background 0.3s ease;
+}
+.ant-table.ant-table-middle {
+    font-size: 15px;
+}
+
+.mainInvoiceContainer{
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+   background:  #DCDCDC;
+  border-radius: 10px;
+}
+.logoInvoice{
+    height: 40px;
+    width: 200px;
+}
+@media only screen and (max-width: 600px) {
+   
+        .ant-table-thead > tr > th {
+            position: relative;
+            color: rgba(0, 0, 0, 0.85);
+            font-weight: 800;
+            text-align: left;
+            font-size: 20px;
+            background: #fafafa;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.3s ease;
+        }
+        .ant-table.ant-table-middle {
+            font-size: 22px;
+        }
+        .mainInvoiceContainer{
+            width: 700px;
+            margin: auto;
+            margin-top: 65px;
+            padding: 15px;
+           background:  #DCDCDC;
+          border-radius: 10px;
+        }
+        .logoInvoice{
+            height: 55px;
+            width: 240px;
+        }
+  }

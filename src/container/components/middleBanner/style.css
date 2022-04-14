@@ -1,0 +1,63 @@
+.worksBlock {
+  background: url("../../../assets/images/ourbackground.jpg") no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.worksBlock:before {
+  content: "";
+  /* background: rgba(0, 0, 0, 0.5); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.worksBlock h2 {
+  color: white;
+}
+
+.worksBlock .contentHolder button {
+  font-size: 40px;
+  line-height: 1;
+  background: none;
+  border: 0px;
+  color: #fff;
+  padding: 30px;
+  width: 110px;
+  height: 110px;
+}
+.BannerButton {
+  align-content: center;
+  padding:2.5px;
+}
+.titleHolder{
+  text-align: center;
+  height: auto;
+ 
+}
+.btnStyle{
+  color: White;
+  background: #d63956;
+ 
+
+}
+.showTextColor{
+  color: black;
+}
+@media only screen and (min-width: 1750px) {
+  .titleHolder{
+    text-align: center;
+    height: auto;
+    font-size:xx-large;
+  }
+  .btnStyle{
+    color: White;
+    background: #d63956;
+    height: 45px;
+    font-size: x-large;
+  
+  }
+}

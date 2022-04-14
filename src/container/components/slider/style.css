@@ -1,0 +1,124 @@
+.parent-carousel .carousel .thumbs {
+  transition: all 0.15s ease-in;
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  list-style: none;
+  white-space: nowrap;
+  display: none !important ;
+}
+.carousel * {
+  box-sizing: border-box;
+  margin-top:auto ;
+}
+.carousel .slide img {
+  width: 100%;
+  vertical-align: top;
+  border: 0;
+  height: 60vh;
+}
+.Carausel-image{
+  margin-top: 180px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    margin-top: 20px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    margin-top: 20px;
+    height: 370px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .carousel .slide img {
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    height: 240px;
+  }
+}
+.carousel .carousel-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 10px;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+  color: #fff;
+  display: none;
+}
+/* @media screen and (max-width: 600px) {
+  .carousel * {
+    box-sizing: border-box;
+    margin-top: 9%;
+  }
+} */
+/* .legend{
+  opacity: 0.75;
+  height: 15%;
+  color: white;
+  background-color: teal;
+  font-size: 18px;
+} */
+
+.marginCarausel{
+  margin-top: 1%;
+}
+ @media screen and (max-width: 901px) {
+  .marginCarausel{
+    margin-top: 12vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .marginCarausel{
+    margin-top: 5vh;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .marginCarausel{
+    margin-top: 3.7vh;
+  }
+}
+@media screen and (max-width: 360px) {
+  .marginCarausel{
+    margin-top:5vh;
+  }
+}
+  .carousel .slide .legend {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    font-weight:900;
+    border-radius: 10px;
+    background: #bd717f;
+    color: #fff;
+    padding: 10px;
+    font-size: 2.3vh;
+    text-align: center;
+    opacity: .0;
+    -webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+    -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+}
+
+
+
+

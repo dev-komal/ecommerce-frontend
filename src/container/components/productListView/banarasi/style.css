@@ -1,0 +1,71 @@
+.mainDiv{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: -1.2%;  
+}
+.buttonHeader{
+    float: right;
+    margin-top: 0.25%;
+}
+.filterBG {
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    padding: 12px 0;
+}
+.sideBar{
+    height: 50vh;
+    width: 7vw;
+    justify-items: center;
+    float: left;
+    background-color:rgb(231, 197, 197);
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.priceRange{
+    height: 18vh;
+    width: 7vw;
+    background-color: white;
+}
+.offer-message {
+    font-family: sans-serif !important;
+    color:white;
+}
+.alert-info {
+    background-color: white;
+    border-color: #080a0a;
+    color: chocolate;
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.announcementBar {
+    position: relative;
+    text-align: center;
+    background-color: #d63956;
+    color: #ad2e2e;
+    border-bottom-color: #e8e8e1;
+}
+
+.banner__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: burlywood;
+}
+.containerDiv {
+    /* padding: 16px 16px 16px 16px; */
+    margin-top: -6px !important;
+   
+}
+.button-style.ant-btn-primary {
+    color: #fff;
+    width: 100%;
+    background: #d63956;
+    border-color: #d63956;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+}
